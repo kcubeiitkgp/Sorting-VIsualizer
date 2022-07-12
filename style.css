@@ -1,0 +1,61 @@
+
+h1 {
+    font-family: "Arial Black", sans-serif;
+  font-size: 4.5em;
+  letter-spacing: -1px;
+  background-color: #34495e;;
+  color: white ;
+  margin-bottom: 15px;
+  padding-bottom: 15px ;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    max-width:1920px;
+    margin: auto;
+    
+}
+
+span {
+    margin: 5%;
+}
+.flex-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item{
+    background: white;
+    border: 1pt solid black ;
+    width: 10px;
+    transition: 0.1s all ease;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    color:black;
+    text-align: center;
+}
+
+.bg-dark {
+	background-color: white !important;
+    
+}
+
+#bars {
+    background-color: black;
+}
+
